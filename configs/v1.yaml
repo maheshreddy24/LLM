@@ -1,0 +1,16 @@
+d_model: 768
+num_heads: 12
+head_dim: 64
+num_decoder_layers: 12
+ffn_scale: 4
+# determine this
+vocab_size: 50257 
+context_length: 1024
+
+lr: 5e-4
+weight_decay: 1e-2
+warmup_ratio: 0.2
+grad_accum: 16
+batch_size: 4
+epochs: 5
+temperature: 0.8
